@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="ประกันภัยรถยนต์ภาคบังคับ (พ.ร.บ)"
+        android:textColor="#000000"
+        android:textSize="21dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/registration_year"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="17"
+        android:entries="@array/arr_registration_year" />
+
+    <Spinner
+        android:id="@+id/brand_cars"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="17"
+        android:entries="@array/arr_brand_cars" />
+
+    <Spinner
+        android:id="@+id/car_model"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="17"
+        android:entries="@array/arr_car_model" />
+
+    <Spinner
+        android:id="@+id/use_category"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="17"
+        android:entries="@array/arr_use_category" />
+
+    <Spinner
+        android:id="@+id/dimensions_engine"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="17"
+        android:entries="@array/arr_dimensions_engine" />
+
+
+    <Button
+        android:id="@+id/btn_calculate_cmi"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="15"
+        android:background="@color/colorPrimary"
+        android:text="คำนวณเบี้ยประกันภัย"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

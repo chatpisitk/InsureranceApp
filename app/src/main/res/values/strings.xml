@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">Deves Insurance Mobile</string>
+
+    <string-array name="arr_titlename">
+        <item>คำนำหน้า</item>
+        <item>นาย</item>
+        <item>นางสาว</item>
+        <item>นาง</item>
+    </string-array>
+
+    <string-array name="arr_province">
+        <item>จังหวัด</item>
+        <item>กรุงเทพมหานคร</item>
+        <item>นนทบุรี</item>
+        <item>ปทุมธานี</item>
+        <item>สมุทรปราการ</item>
+    </string-array>
+
+    <string-array name="arr_city">
+        <item>อำเภอ</item>
+    </string-array>
+
+    <string-array name="arr_subcity">
+        <item>ตำบล</item>
+    </string-array>
+
+    <string-array name="arr_registration_year">
+        <item>ปีที่จดทะเบียน</item>
+        <item>2540</item>
+        <item>2541</item>
+        <item>2542</item>
+        <item>2543</item>
+        <item>2544</item>
+        <item>2545</item>
+        <item>2546</item>
+        <item>2547</item>
+        <item>2548</item>
+        <item>2549</item>
+        <item>2550</item>
+        <item>2551</item>
+        <item>2552</item>
+        <item>2553</item>
+        <item>2554</item>
+        <item>2555</item>
+        <item>2556</item>
+        <item>2557</item>
+        <item>2558</item>
+        <item>2559</item>
+    </string-array>
+
+    <string-array name="arr_brand_cars">
+        <item>ยี่ห้อรถ</item>
+        <item>AC</item>
+        <item>ALFA ROMEO</item>
+        <item>ASTON MART</item>
+        <item>AUDI</item>
+        <item>AUSTIN</item>
+        <item>BENTLEY</item>
+        <item>BENZ</item>
+        <item>BMW</item>
+        <item>BRABUS</item>
+        <item>CADILLAC</item>
+        <item>CHEVROLET</item>
+        <item>CHRYSLER</item>
+        <item>CITROEN</item>
+        <item>DAEWOO</item>
+        <item>DAIHATSU</item>
+        <item>DAIMLER</item>
+        <item>DUTSUN</item>
+        <item>FERRARI</item>
+        <item>FIAT</item>
+        <item>FORD</item>
+        <item>HOLDEN</item>
+        <item>HONDA</item>
+        <item>HUMMER</item>
+        <item>HYUNDAI</item>
+        <item>INTERNATIO</item>
+        <item>ISUZU</item>
+        <item>JAGUAR</item>
+        <item>JEEP</item>
+        <item>KIA</item>
+        <item>LAMBORGHIN</item>
+        <item>LANCIA</item>
+        <item>LAND ROVER</item>
+        <item>MINI</item>
+        <item>MITSUBISHI</item>
+        <item>NISSAN</item>
+        <item>PERODUA</item>
+        <item>PEUGEOT</item>
+        <item>PORSCHE</item>
+        <item>RENAULT</item>
+        <item>ROLLS ROYC</item>
+        <item>ROVER</item>
+        <item>SAAB</item>
+        <item>LEXUS</item>
+        <item>LOTUS</item>
+        <item>MASERATI</item>
+        <item>MAZDA</item>
+        <item>OPEL</item>
+        <item>THAIRUNG</item>
+        <item>TOYOTA</item>
+        <item>SCORADO</item>
+        <item>SEAT</item>
+        <item>SKODA</item>
+        <item>SMART</item>
+        <item>SSANGYONG</item>
+        <item>SUBARU</item>
+        <item>SUZUKI</item>
+        <item>VOLKSWAGEN</item>
+        <item>VOLVO</item>
+        <item>VOLKSWAGEN</item>
+        <item>SSANGYONG</item>
+        <item>TOYOTA</item>
+        <item>OPEL</item>
+        <item>MAZDA</item>
+        <item>MITSUBISHI</item>
+        <item>LAND ROVER</item>
+        <item>KIA</item>
+        <item>JEEP</item>
+        <item>ISUZU</item>
+        <item>HYUNDAI</item>
+        <item>HINO</item>
+        <item>FORD</item>
+        <item>DUTSUN</item>
+        <item>DAIHATSU</item>
+        <item>CHEVROLET</item>
+        <item>HINO</item>
+        <item>ISUZU</item>
+        <item>MITSUBISHI</item>
+        <item>NISSAN</item>
+        <item>TOYOTA</item>
+        <item>NISSAN</item>
+        <item>MITSUBISHI</item>
+        <item>ISUZU</item>
+        <item>HINO</item>
+
+    </string-array>
+
+    <string-array name="arr_car_model">
+        <item>รุ่นรถ</item>
+        <item>ACCORD 2.0 EX</item>
+        <item> SPRINTER 313 2.2 CDI</item>
+        <item>COLORADO</item>
+
+    </string-array>
+
+    <string-array name="arr_use_category">
+        <item>ประเภทของการใช้งาน</item>
+        <item>เก๋งส่วนบุคคล</item>
+        <item>รถรับจ้าง</item>
+    </string-array>
+
+    <string-array name="arr_dimensions_engine">
+        <item>ขนาดเครื่องยนต์</item>
+        <item>1.10E</item>
+        <item>1.20A</item>
+        <item>1.20B</item>
+        <item>1.20C</item>
+        <item>1.20D</item>
+        <item>1.40A</item>
+        <item>1.40B</item>
+        <item>1.40C</item>
+        <item>1.40D</item>
+        <item>1.50</item>
+        <item>1.6</item>
+        <item>1.70A</item>
+        <item>1.71</item>
+        <item>2.1</item>
+        <item>2.20A</item>
+        <item>2.20B</item>
+        <item>2.20C</item>
+        <item>2.20D</item>
+        <item>2.40A</item>
+        <item>2.6</item>
+        <item>3.20A</item>
+        <item>3.20B</item>
+        <item>3.20C</item>
+        <item>3.20D</item>
+        <item>3.40A</item>
+        <item>3.40B</item>
+        <item>3.40C</item>
+        <item>3.40D</item>
+        <item>4.01</item>
+        <item> 4.07</item>
+
+    </string-array>
+</resources>

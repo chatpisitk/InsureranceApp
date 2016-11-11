@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ประกันภัยรถยนต์ภาคบังคับ (พ.ร.บ)"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/registration_year"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:entries="@array/arr_registration_year">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/brand_cars"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:entries="@array/arr_brand_cars" />
+
+    <Spinner
+        android:id="@+id/car_model"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:entries="@array/arr_car_model" />
+
+    <Spinner
+        android:id="@+id/use_category"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:entries="@array/arr_use_category" />
+
+    <Spinner
+        android:id="@+id/dimensions_engine"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:entries="@array/arr_dimensions_engine" />
+
+
+    <Button
+        android:id="@+id/btn_calculatefix"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
+        android:text="คำนวณเบี้ยประกันภัย"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

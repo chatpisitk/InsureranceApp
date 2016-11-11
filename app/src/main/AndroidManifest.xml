@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobile.ck.insureranceapp">
+
+    <supports-screens android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true"
+        android:resizeable="true"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ซื้อประกันภัยรถยนต์"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BuyActivity"
+            android:label="รายละเอียดรถยนต์" />
+        <activity
+            android:name=".BuyCMIActivity"
+            android:label="รายละเอียดรถยนต์" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="ข้อมูลผู้เอาประกันภัย" />
+        <activity
+            android:name=".DetailCarsActivity"
+            android:label="ข้อมูลรถยนต์" />
+        <activity
+            android:name=".QuatationActivity"
+            android:label="รายละเอียดใบเสนอราคา" />
+        <activity
+            android:name=".SelectPakageActivity"
+            android:label="เลือกแพคเกจประกัน" />
+        <activity
+            android:name=".CalculatePlanActivity"
+            android:label="รายการคำนวณราคาเบี้ย" />
+        <activity
+            android:name=".ProfileAddressActivity"
+            android:label="ข้อมูลที่อยู่ผู้เอาประกันภัย" />
+        <activity
+            android:name=".SuccessJobActivity"
+            android:label="จัดซื้อกรมธรรม์เสร็จสิ้น" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>

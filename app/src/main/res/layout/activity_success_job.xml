@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SuccessJobActivity">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="กรมธรรม์ของท่านได้ถูกจัดส่งไปยังอีเมลที่ท่านได้แจ้งไว้และ จัดส่งกรมธรรม์ฉบับสมบูรณ์ไปยังที่อยู่ของ่ทานภายใน 7 วันทำการ  "
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_endjob"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="302dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="ดูกรมธรรม์ของท่าน"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>

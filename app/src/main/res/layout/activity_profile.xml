@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <Spinner
+            android:id="@+id/spn_titlename"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:entries="@array/arr_titlename" />
+
+        <EditText
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="ชื่อ"
+            android:inputType="textPersonName"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/txt_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="นามสกุล"
+            android:inputType="textPersonName"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/txt_citizenID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="เลขบัตรประชาชน"
+            android:inputType="textPersonName"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/txt_driver_license"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="หมายเลขใบอนุญาติขับรถ"
+            android:inputType="textPersonName"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/txt_birthDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="วัน เดือน ปีเกิด"
+            android:inputType="date"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/txt_telNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="เบอร์โทรศัพท์"
+            android:inputType="phone"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNextPage"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:text="ถัดไป"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
